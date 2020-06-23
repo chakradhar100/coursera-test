@@ -1,25 +1,58 @@
 body {
-	
+	font-family:'cantora one';
 }
 
 header{
+
 	text-align: center;
+  font-size: 3em;
 }
 * {
   box-sizing: border-box;
 }
-section{
-	position: relative;
+ section >div{background-color: #4D8EA6;
+  padding: 7px;
+  padding-top: 50px;
+  margin: 8px;
+  
+  position: relative;
+  border: 1px solid black ;
+
+	
 }
-section h5{
-	margin: 0px;
-	border :1px solid black;
-	position: absolute;
-	top: 10px;
-	left: 2px;
+.t1{
+background-color: #D78585;  
+}
+.t2{
+  background-color: #BE3F3F;
+}
+.t3{
+  background-color: #DBDA85;
+}
+.title{
+  font-size: 1.5em;
+  padding:5px 30px; 
+  border: 1px solid black;
+  position: absolute;
+  top: 0px;
+
+  right: 0px;
 
 }
+
+/*div{
+  margin: 0px;
+  position: absolute;
+  right: 0px;
+  border: 1px solid red;
+  width:content;
+  display: inline;
+}*/
+
+
 p{
+  background-color: brown;
+	clear: both;
 	margin-left: 8px;
 	margin-right: 8px;
 	padding: 5px;
@@ -32,7 +65,7 @@ p{
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid green;
+    
   }
   .col-lg-1 {
     width: 8.33%;
