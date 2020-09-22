@@ -6,13 +6,26 @@ background-color:#0b1010;
 	border: 1px solid none;
 	color:#000;
 	background-color:#8fb999;}
-.cd{
-	border: 1px solid black;
-	margin: auto;
-	margin-top: -15px;
-	text-align: center;
-	width:100px;
-	color:black;
 
+
+.cc{
+	
+	display:block;
+	width: 200px;
+}
+.mec{
+	color:#000;
+	background-color: #8fb999;
 }
 
+.rg{
+	border:1px solid black;
+}
+
+.cm{
+	display: block;
+	font-size: 2em;
+	color: #fff;
+	background-color: #2F7849;
+	border: 1px solid red;
+}
